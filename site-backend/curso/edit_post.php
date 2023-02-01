@@ -15,7 +15,7 @@
 		
 		$query = 'UPDATE cursos set professorid ="'.$professorid.'",
 				nome="'.$nome.'", descricao="'.$descricao.'",
-				preco="'.$preco.'", WHERE cursoid ="'.$id.'"';
+				preco="'.$preco.'" WHERE cursoid ="'.$id.'"';
 		$result = mysqli_query($db, $query) or die(mysqli_error($db));				
 		?>	
 
